@@ -1,0 +1,83 @@
+.character_card{
+  width: 275px;
+  height: 425px;
+  margin: 25px;
+
+  border-radius: 40px;
+  background-color: white;
+  box-shadow: 4px 8px 25px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition-duration: 400ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.025);
+    transition-duration: 400ms;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px 40px 0 0;
+  }
+
+  h2 {
+    width: 80%;
+    margin: 10px 0 2px;
+    text-align: center;
+    font-family: $font-heavy;
+  }
+
+  &>p {
+    font-size: 0.8em;
+    font-family: $font-book;
+    width: 85%;
+    margin: 2px 0 4px;
+
+    span {
+      font-family: $font-heavy;
+    }
+  }
+
+  .status {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2px 0px 8px;
+
+    p {
+      font-family: $font-regular;
+      font-size: 0.8em;
+
+      margin: 0 5px;
+    }
+    div {
+      width: 8px;
+      height: 8px;
+      border-radius: 5px;
+      .pulse {
+        transform: scale(1);
+        animation: pulse 1.5s ease-in-out infinite;
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+
+  25% {
+    opacity: 50%;
+  }
+
+  100% {
+    transform: scale(1.8);
+    opacity: 0%;
+  }
+}

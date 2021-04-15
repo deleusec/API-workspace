@@ -1,19 +1,17 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  z-index: 1;
-  @extend %opacity-transition;
+    padding: 0 100px;
+    box-sizing: border-box;
+    margin: 50px 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@media (max-width : 1000px) {
+    .container {
+        padding: 0 50px;
+    }
 }

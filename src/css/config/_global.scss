@@ -1,6 +1,10 @@
 body {
-  font-family: $font-main;
-  background-color: $color-main;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }

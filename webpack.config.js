@@ -33,7 +33,7 @@ config = {
                 type: 'asset/resource',
             },
             {
-                test: /\.(woff(2)?|ttf|eot|svg)$/,
+                test: /\.(woff(2)?|ttf|eot|svg|otf)$/,
                 type: 'asset/resource',
             },
         ],

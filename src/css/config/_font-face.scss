@@ -1,7 +1,24 @@
 @font-face {
-  font-family: 'Din Pro';
-  src: url("../fonts/DINPro-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: 'Uni Neue Book';
+  src: url("../fonts/UniNeueBook.woff") format("woff");
 }
 
-$font-main: 'Din Pro', sans-serif;
+@font-face {
+  font-family: 'Uni Neue Regular';
+  src: url("../fonts/UniNeueRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Uni Neue Bold';
+  src: url("../fonts/UniNeueBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Uni Neue Heavy';
+  src: url("../fonts/UniNeueHeavy.woff") format("woff");
+}
+
+$font-book: 'Uni Neue Book', sans-serif;
+$font-regular: 'Uni Neue Regular', sans-serif;
+$font-bold: 'Uni Neue Bold', sans-serif;
+$font-heavy: 'Uni Neue Heavy', sans-serif;

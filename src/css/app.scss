@@ -6,9 +6,10 @@
 @import "config/global";
 
 // Layouts
+@import "layouts/header";
 @import "layouts/homepage";
 
 // Components
-@import "components/background";
-@import "components/greeting";
-@import "components/quote";
+@import "components/characters";
+@import "components/loadmore";
+@import "components/searchbar";

@@ -1,0 +1,23 @@
+.loadmore {
+    font-family: $font-regular;
+    font-size: 1em;
+  
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin: 0px auto 75px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+  
+    background-color: white;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+    transition-duration: 400ms;
+    outline: none;
+  
+    &:hover {
+      transform: scale(1.075);
+      transition-duration: 400ms;
+    }
+  
+  }

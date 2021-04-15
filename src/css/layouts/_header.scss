@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    min-height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 500px;
+        height: auto;
+        margin: 50px 0 25px;
+    }
+}
+
+@media (max-width : 800px) {
+    header {
+        img {
+            width: 300px;
+        }
+    }
+}
