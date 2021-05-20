@@ -1,7 +1,7 @@
-# API-workspace
+# API-workspace 
 Développement d'une API en Javascript 
 
-## Final Space
+## Final Space 🚀
 
 Cette application Web permet de retrouver des informations sur les personnages de la série Final Space, disponible sur Netflix Toudoum.
 
